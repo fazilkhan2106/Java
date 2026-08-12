@@ -9,10 +9,12 @@ public class PostiveNumber {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter an Number: ");
         int num = sc.nextInt();
-        if(num  >= 0){
+        if(num  > 0){
             System.out.println(num + " Number is positive.");
-        }else{
+        }else if(num < 0){
             System.out.println(num + " Number is Negative.");
+        }else{
+            System.out.println(num + " Number is Zero.");
         }
         sc.close();
     }
