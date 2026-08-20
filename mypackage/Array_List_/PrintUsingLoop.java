@@ -17,8 +17,8 @@ public class PrintUsingLoop {
         nums.add(8);
         nums.add(9);
         nums.add(10);
-        for(int i = 1; i <= nums.size(); i++){
-            System.out.println(i);
+        for(int i = 0; i <= nums.size(); i++){
+            System.out.println(nums.get(i));
         }
     }
 }

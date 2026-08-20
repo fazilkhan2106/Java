@@ -13,8 +13,9 @@ public class RemoveAnElement {
         nums.add(30);
         nums.add(40);
         nums.add(50);
+        nums.remove(Integer.valueOf(30));
         System.out.println(nums);
-        nums.remove(3);
+        //nums.remove(3);
         System.out.println(nums);
     }
 }
